@@ -7,7 +7,7 @@ var Model = Model || {};
 
 // Remote parsing of generated image
 var model_url =
-    "https://us-central1-machine-learning-199407.cloudfunctions.net/euroscipy-2019-tutorial";
+    "https://us-central1-machine-learning-199407.cloudfunctions.net/euroscipy-2019-tutorial-128";
 
 Model.generate = async function (noise_vector) {
     console.log("Generating");
